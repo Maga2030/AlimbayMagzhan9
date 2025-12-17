@@ -22,7 +22,7 @@ public class CreditCardPayment : IPayment
 
     public string GetTransactionStatus()
     {
-        return "Платеж через карту успешен";
+        return "Платеж через карту прошел успешно";
     }
 }
 
