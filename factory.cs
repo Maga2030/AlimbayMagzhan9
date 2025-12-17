@@ -86,7 +86,7 @@ public class CryptoPayment : IPayment
     }
 }
 
-// Фабрика платежей (ключевая часть)
+// Фабрика платежей 
 public static class PaymentFactory 
 {
     // Создание объекта оплаты в зависимости от выбранного типа
@@ -108,7 +108,7 @@ public static class PaymentFactory
     }
 }
 
-// Клиентский код (пример использования)
+// Клиентский код (пример)
 class Program
 {
     static void Main(string[] args)
